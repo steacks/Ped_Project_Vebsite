@@ -1,0 +1,311 @@
+* {
+    box-sizing: border-box;
+}
+
+.container {
+max-width: 1000px;
+justify-content: space-between;
+align-items: center;
+margin-left: auto;
+margin-right: auto;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background: #11152C;
+    color: #fff;
+    font-family: sans-serif;
+    width: 100%;
+    height: 100%;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+p {
+    margin: 0;
+}
+
+.container {
+    width: 100%;
+    height: 100%;
+}
+
+header {
+    text-align: center;
+    padding: 24px 16px;
+}
+
+header p {
+    padding-top: 4px;
+}
+
+.category {
+    display: flex;
+    overflow: auto;
+    padding: 0 16px 10px;
+    justify-content: center;
+}
+
+.category .tag{
+
+    height: 40px;
+    border-radius: 9px;
+    padding: 0 16px;
+    background: rgb(255, 255, 255);
+    line-height: 40px;
+    margin-right: 10px;
+    cursor: pointer;
+    color: #000;
+
+}
+
+button:hover {
+
+  color: #0084ff;
+
+}
+
+.active-tag {
+background-color: blue;
+    height: 40px;
+    border-radius: 9px;
+    padding: 0 16px;
+    line-height: 40px;
+    margin-right: 10px;
+}
+
+.articles {
+    padding: 0 16px;
+    margin-top: 24px;
+    margin-bottom: 32px;
+}
+
+.articles > h3 {
+    margin-bottom: 16px;
+}
+
+.wrapper .article {
+    background: rgb(255 255 255 / 10%);
+    border-radius: 16px;
+    margin-bottom: 8px;
+    padding: 24px 16px;
+}
+
+.wrapper .article:last-child {
+    margin-bottom: 0;
+}
+
+.article .tags {
+    display: flex;
+    align-items: center;
+    margin-bottom: 6px;
+}
+
+.article .tags .tag {
+    border-radius: 4px;
+    background: #2563EB;
+    color: #fff;
+    font-size: 12px;
+    padding: 0 10px;
+    height: 20px;
+    line-height: 20px;
+    margin-right: 6px;
+}
+
+.article .title {
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.article p {
+    color: #C1C1C1;
+}
+
+.article .article-footer {
+    display: flex;
+    align-items: center;
+    margin-top: 16px;
+}
+
+.article-footer .item {
+    display: flex;
+    align-items: center;
+    margin-right: 16px;
+}
+
+.article-footer .item span {
+    font-size: 14px;
+}
+
+.article-footer .item img {
+    margin-right: 6px;
+}
+
+.check-list {
+    padding: 0 16px;
+    margin-bottom: 32px;
+}
+
+.check-list .list {
+    margin: 0;
+    padding-left: 30px;
+}
+
+.check-list .title {
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 16px;
+}
+
+.check-list .button {
+    margin-top: 16px;
+}
+
+.check-list .list li {
+    padding-bottom: 10px;
+    color: #DCDCDC;
+}
+
+.button {
+    height: 45px;
+    background: rgb(255, 255, 255);
+    color: #000000;
+    border-radius: 6px;
+    border: none;
+    width: 100%;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.button.light {
+    background: #f1efef1a;
+}
+
+footer {
+    margin-top: 50px;
+    margin-bottom: 16px;
+    padding: 0 16px;
+}
+
+footer .logo {
+    height: 24px;
+    display: block;
+    margin: 0 auto;
+}
+
+footer ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+footer .list-documents {
+    margin: 24px 0;
+}
+
+footer .list-documents li {
+    margin-bottom: 16px;
+    text-align: center;
+}
+
+footer .contact {
+    margin-bottom: 40px;
+}
+
+footer .contact h3 {
+    text-align: center;
+    margin-bottom: 24px;
+}
+
+footer .contact li {
+    margin-bottom: 16px;
+    text-align: center;
+}
+
+footer .contact li a {
+    text-decoration: underline;
+    opacity: 0.7;
+}
+
+footer .rights {
+    text-align: center;
+    font-size: 14px;
+    opacity: 0.4;
+}
+
+.form {
+    padding: 0 16px;
+    margin-bottom: 32px;
+}
+.form .title {
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 24px;
+}
+
+form .field {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 16px;
+}
+form .field label {
+    font-weight: 500;
+    margin-bottom: 6px;
+    font-size: 14px;
+}
+form .field input {
+    background: #ffffff1a;
+    border: none;
+    border-radius: 6px;
+    height: 40px;
+    outline: none;
+    padding: 0 12px;
+    color: #fff;
+}
+
+form .field textarea {
+    background: #ffffff1a;
+    border: none;
+    border-radius: 6px;
+    outline: none;
+    padding: 0 12px;
+    color: #fff;
+}
+
+form .button {
+    margin-top: 16px;
+}
+
+.skills {
+    padding: 0 16px;
+    margin-bottom: 32px;
+}
+
+.skills .title {
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 24px;
+}
+
+.table {
+    border-radius: 6px;
+    width: 100%;
+    overflow: hidden;
+    text-align: center;
+    font-size: 14px;
+    border: none; border-collapse: collapse;
+}
+
+table tr td {
+    background: #fff;
+    color: #000;
+    height: 45px;
+    width: 25%;
+    font-weight: 500;
+    border: 1px solid silver;
+}
